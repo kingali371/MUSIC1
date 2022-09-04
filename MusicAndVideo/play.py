@@ -125,7 +125,7 @@ async def play(client, m: Message):
                 await huehue.delete()
                 # await m.reply_to_message.delete()
                 await m.reply_photo(
-                    photo="https://telegra.ph/file/8efbe93b81985bb648d95.jpg",
+                    photo="https://telegra.ph/file/3d4e9709614892e62a969.jpg",
                     caption=f"""
 تمت اضافتها الى قائمة الانتظار {pos}
 الاسم: [{songname}]({link})
@@ -268,7 +268,7 @@ async def vplay(client, m: Message):
                 await huehue.delete()
                 # await m.reply_to_message.delete()
                 await m.reply_photo(
-                    photo="https://telegra.ph/file/8efbe93b81985bb648d95.jpg",
+                    photo="https://telegra.ph/file/3d4e9709614892e62a969.jpg",
                     caption=f"""
 **الحالة: تم التشغيل بنجاح ⚡️
 الاسم: [{songname}]({link})
@@ -371,7 +371,7 @@ async def playfrom(client, m: Message):
                     add_to_queue(chat_id, songname, location, link, "الصوت", 0)
                     # await m.reply_to_message.delete()
                     await m.reply_photo(
-                        photo="https://telegra.ph/file/8efbe93b81985bb648d95.jpg",
+                        photo="https://telegra.ph/file/3d4e9709614892e62a969.jpg",
                         caption=f"""
 **تمت اضافتها الى قائمة الانتظار {chat}
 الاسم: [{songname}]({link})
